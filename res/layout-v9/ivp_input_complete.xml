@@ -1,0 +1,113 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/ivpinput_complete"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical"
+>
+
+    <LinearLayout 
+        android:id="@+id/ivpinput_top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+    >
+        <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="t0"
+            android:orientation="vertical"
+
+                  
+        >
+        </TextView>
+    
+        <EditText android:id="@+id/t0_value"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:background="@color/dark_green"
+                  android:layout_margin="5dp"
+                  android:inputType = "numberDecimal"
+              
+        />
+        <TextView android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_margin="5dp"
+                  android:text="y(t0)"
+
+        >
+        </TextView>
+        <EditText android:id="@+id/y_t0_value"
+                  android:background="@color/dark_green"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_margin="5dp"
+                  android:inputType = "numberDecimal"
+        />
+    
+        <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="plot from y0 :"
+        >
+        </TextView>
+    
+        <EditText android:id="@+id/y0_value"
+                  android:background="@color/dark_green"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_margin="5dp"
+                  android:inputType = "numberDecimal"
+        />
+        <TextView android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_margin="5dp"
+                  android:text="to y1 :"
+        >
+        </TextView>
+    
+        <EditText android:id="@+id/y1_value"
+                  android:background="@color/dark_green"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_margin="5dp"
+                  android:inputType = "numberDecimal"
+        />
+    
+        <TextView android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_margin="5dp"
+                  android:text="Interval :"
+        >
+        </TextView>
+    
+        <EditText android:id="@+id/interval"
+                  android:background="@color/dark_green"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_margin="5dp"
+                  android:inputType = "numberDecimal"
+        />
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+       
+       android:gravity="bottom"
+    >
+        <Button 
+            android:id="@+id/plot_button"
+            android:layout_margin="5dp"      
+            android:background="@color/dark_green"
+            android:layout_weight="1"
+            android:text="Plot"
+            
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="readValuesAndPlotSolution"
+        />
+        
+    </LinearLayout>
+ 
+</LinearLayout>

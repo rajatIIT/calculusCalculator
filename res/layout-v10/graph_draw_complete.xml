@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/draw_gr_ll"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical"
+>
+    <TextView 
+        android:id="@+id/graph_draw_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Function"
+        android:textColor="@color/dark_green"
+
+        
+    >
+    </TextView>
+    
+    <EditText android:id="@+id/draw_fn_text"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="10dp"
+     android:textColor="@color/dark_green"
+    />
+
+
+    <TextView
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="from"
+     android:textColor="@color/dark_green"
+        
+    >
+    </TextView>
+    <EditText android:id="@+id/draw_from"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="10dp"
+              android:inputType = "numberDecimal"
+              android:textColor="@color/dark_green"
+     
+    />
+
+
+
+
+    <TextView
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="to"
+     android:textColor="@color/dark_green"
+        
+    >
+    </TextView>
+    <EditText android:id="@+id/draw_to"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="10dp"
+              android:inputType = "numberDecimal"
+     android:textColor="@color/dark_green"
+    />
+
+
+    <TextView
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="with an interval"
+     android:textColor="@color/dark_green"
+        
+    >
+    </TextView>
+    <EditText android:id="@+id/draw_interval"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="10dp"
+              android:inputType = "numberDecimal"
+     android:textColor="@color/dark_green"
+    />
+
+
+
+    <Button
+        android:onClick="plotGraph"
+        android:layout_gravity="bottom"
+        android:layout_margin="15dp"
+        android:text="Plot"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/dark_green"
+     />
+
+
+</LinearLayout>

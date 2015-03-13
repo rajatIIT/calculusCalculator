@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              
+              android:orientation="vertical" 
+              android:gravity="bottom"
+>
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:textSize="40dp"
+        android:text="G(x)"
+        android:background="#7C7C7C"
+    >
+    </TextView>
+    
+    <EditText android:id="@+id/gx_text"
+              android:layout_width="fill_parent"
+              android:layout_height="100dp"
+              android:textSize="25dp"
+              
+    />
+    <TextView android:layout_width="fill_parent"
+              android:layout_height="80dp"
+              android:textSize="40dp"
+              android:text="H(x)"
+              android:background="#7C7C7C"
+    >
+    </TextView>
+    
+    <EditText android:layout_width="fill_parent"
+              android:layout_height="100dp"
+              android:textSize="25dp"
+    
+    />
+    
+    
+    <TextView android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textSize="20dp"
+              android:text="Samples: \n2*pow(x,2.0)+2*pow(x,2.0)+4 \n(x)*sin(x)+(x)*cos(x)"
+    >
+    </TextView>
+    
+</LinearLayout>
+ 
+ 
+ 

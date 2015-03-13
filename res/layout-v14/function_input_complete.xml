@@ -1,0 +1,109 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/function_input_complete"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical"
+  
+>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical" 
+                  android:gravity="top"
+  
+              
+    >
+        <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+        
+            android:text="G(x)"
+            android:textColor="@color/dark_green"
+            android:textAppearance="?android:attr/textAppearanceListItemSmall"
+            android:layout_margin="10dp"
+        >
+        </TextView>
+    
+        <EditText android:id="@+id/gx_text"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_margin="10dp"
+                  android:textColor="@color/btn_txt_clr"
+                  style="@android:style/Widget.DeviceDefault.Light.EditText"
+        />
+        <!-- android:background="#ffffff" --> 
+
+        <TextView android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:textAppearance="?android:attr/textAppearanceListItemSmall"
+                  android:text="H(x)"
+                  android:textColor="@color/dark_green"
+                  android:layout_margin="10dp"
+        >
+        </TextView>
+        <!--  android:background="#7C7C7C" -->
+        <EditText android:id="@+id/hx_text"
+                  android:layout_width="fill_parent"
+                  android:textColor="@color/btn_txt_clr"
+                  android:layout_height="wrap_content"
+                  android:textAppearance="?android:attr/textAppearanceListItemSmall"
+                  android:layout_margin="10dp"
+    
+        />
+        <!-- "Samples: \n2*pow(x,2.0)+2*pow(x,2.0)+4 \n(x)*sin(x)+(x)*cos(x) 
+        <TextView android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:textAppearance="?android:attr/textAppearanceListItemSmall"
+                  android:text="Samples: "
+                  android:layout_margin="10dp"
+        >
+        </TextView>
+     
+        <TextView android:id="@+id/samples_text"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:textAppearance="?android:attr/textAppearanceListItemSmall"
+                  android:layout_margin="10dp"
+                  android:text="2*pow(x,2.0)+2*pow(x,2.0)+4 \n(x)*sin(x)+(x)*cos(x) "
+                  android:background="@color/dark_green"
+    
+        />
+        -->
+    </LinearLayout>  
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"          
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+  
+    >
+        <Button 
+            android:layout_gravity="bottom"
+            android:layout_margin="10dp"      
+            android:layout_weight="1"
+            android:text="Clear"
+            android:textColor="@color/btn_txt_clr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/dark_green"
+            style="?android:attr/borderlessButtonStyle"
+        />
+    
+        <!-- android:background="#7C7C7C"-->
+        <Button 
+            android:layout_gravity="bottom"
+        
+            android:layout_margin="10dp"      
+            android:layout_weight="1"
+            android:text="Next"
+            android:textColor="@color/btn_txt_clr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/dark_green"
+            style="?android:attr/borderlessButtonStyle"
+            android:onClick="goToNextPanel"
+        />
+        <!-- android:background="#7C7C7C" -->
+    </LinearLayout>
+</LinearLayout>

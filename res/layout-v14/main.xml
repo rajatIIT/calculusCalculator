@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+android:id="@+id/mainTitle"
+
+>
+     <TextView
+        android:id="@+id/main_page"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="Differentiate or Integrate"
+        android:gravity="center"
+        android:textSize="20dp"
+        
+        android:textColor="@color/dark_green"
+    />
+    
+    
+    
+<!--
+    <RelativeLayout android:layout_width="fill_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                
+    >
+
+
+
+        <LinearLayout android:id="@+id/title"
+                      android:layout_centerInParent="true"
+                      android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal"
+        >
+            <TextView android:layout_height="wrap_content"
+                      android:layout_width="wrap_content"
+                      android:text="Calculus"
+                      android:textSize="25sp"
+                      android:gravity="bottom"
+                      android:layout_marginLeft="30sp"
+                      android:padding="10sp"      
+            />
+            <TextView android:layout_height="fill_parent"
+                      android:layout_width="7sp"
+                      android:background="#000000"
+                      android:padding="10sp"      
+            />
+            <TextView android:layout_height="wrap_content"
+                      android:layout_width="wrap_content"
+                      android:text="Calculator"
+                      android:textSize="40sp"
+                      android:gravity="bottom"
+                      android:padding="10sp"      
+              
+            />
+    
+        </LinearLayout>
+    </RelativeLayout>
+    
+    -->
+</LinearLayout>
+

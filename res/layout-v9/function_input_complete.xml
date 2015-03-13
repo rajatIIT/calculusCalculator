@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/function_input_complete"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical"
+  
+>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical" 
+                  android:gravity="top"
+  
+              
+    >
+        <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+        
+            android:text="G(x)"
+            
+            android:layout_margin="10dp"
+        >
+        </TextView>
+    
+        <EditText android:id="@+id/gx_text"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_margin="10dp"
+            
+        />
+      
+
+        <TextView android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                 
+                  android:text="H(x)"
+                  android:layout_margin="10dp"
+        >
+        </TextView>
+      
+        <EditText android:id="@+id/hx_text"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                 
+                  android:layout_margin="10dp"
+    
+        />
+        
+    </LinearLayout>  
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"          
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+  
+    >
+        <Button 
+            android:layout_gravity="bottom"
+        
+            android:layout_margin="10dp"      
+            android:layout_weight="1"
+            android:text="Clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           
+         
+        />
+    
+       
+        <Button 
+            android:layout_gravity="bottom"
+        
+            android:layout_margin="10dp"      
+            android:layout_weight="1"
+            android:text="Next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+         
+         
+            android:onClick="goToNextPanel"
+        />
+      
+    </LinearLayout>
+</LinearLayout>

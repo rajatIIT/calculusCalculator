@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:gravity="bottom"
+                 
+>
+    <Button 
+        android:layout_margin="15dp"      
+        android:padding="20dp"
+        android:layout_weight="1"
+        android:text="Plot"
+        android:textColor="@color/btn_txt_clr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#7C7C7C"
+        android:onClick="readValuesAndPlotSolution"
+        
+    />
+
+</LinearLayout>

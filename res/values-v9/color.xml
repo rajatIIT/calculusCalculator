@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<resources>
+   <color name="opaque_red">#f00</color>
+   <color name="translucent_red">#80ff0000</color>
+   <color name="dark_green">#01633F</color>
+   <color name="dark_red">#502A0000</color>
+   <color name="yx_color">#C10000</color>
+   <color name="gx_color">#03C100</color>       
+   <color name="hx_color">#0300C1</color>
+   <color name="theme_1">#CD7400</color>
+   <color name="theme_2">#874D00</color>
+   <color name="theme_3">#422500</color>
+   <color name="appblack">#000000</color>
+   <color name="btn_txt_clr">#ffffff</color>
+</resources>

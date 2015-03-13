@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!-- instead of G(x) and H(x), read initial values and range of output  -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical" 
+              android:gravity="bottom"
+>
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:textSize="20dp"
+        android:text="t0"
+        android:background="#7C7C7C"
+    >
+    </TextView>
+    
+    <EditText android:id="@+id/t0_value"
+              android:layout_width="fill_parent"
+              android:layout_height="50dp"
+              android:textSize="25dp"
+              
+    />
+    <TextView android:layout_width="fill_parent"
+              android:layout_height="40dp"
+              android:textSize="20dp"
+              android:text="y(t0)"
+              android:background="#7C7C7C"
+    >
+    </TextView>
+    
+    <EditText android:id="@+id/y_t0_value"
+              android:layout_width="fill_parent"
+              android:layout_height="50dp"
+              android:textSize="25dp"
+    
+    />
+    
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:textSize="20dp"
+        android:text="plot from y0 :"
+        android:background="#7C7C7C"
+    >
+    </TextView>
+    
+    <EditText android:id="@+id/y0_value"
+              android:layout_width="fill_parent"
+              android:layout_height="50dp"
+              android:textSize="25dp"
+              
+    />
+    <TextView android:layout_width="fill_parent"
+              android:layout_height="40dp"
+              android:textSize="20dp"
+              android:text="to y1 :"
+              android:background="#7C7C7C"
+    >
+    </TextView>
+    
+    <EditText android:id="@+id/y_t1_value"
+              android:layout_width="fill_parent"
+              android:layout_height="50dp"
+              android:textSize="25dp"
+    />
+    
+    <TextView android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textSize="20dp"
+              android:text="Samples: \n2*pow(x,2.0)+2*pow(x,2.0)+4 \n(x)*sin(x)+(x)*cos(x)"
+    >
+    </TextView>
+    
+</LinearLayout>
+ 

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scrollY="1000dp"
+>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="vertical"
+                  android:layout_height="fill_parent"
+                  android:layout_width="fill_parent"
+    >
+        <TextView 
+            android:id="@+id/samplev"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="Samples"
+        />
+    </LinearLayout>  
+</ScrollView>

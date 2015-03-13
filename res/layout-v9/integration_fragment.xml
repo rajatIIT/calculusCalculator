@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/int_fn_ll"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical"
+>
+    <TextView 
+        android:id="@+id/integral_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Function"
+        android:layout_margin="10dp"
+    >
+    </TextView>
+    
+    <EditText android:id="@+id/input_int_funcn"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="10dp"
+        
+    />
+
+    <Button
+        android:onClick="integrate"
+        android:layout_gravity="right"
+        android:layout_margin="15dp"
+        android:text="Integrate"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@color/dark_green"
+        />
+
+</LinearLayout>
